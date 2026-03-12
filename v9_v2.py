@@ -45,7 +45,7 @@ from telegram.ext import (
 #                   CONFIG
 # ════════════════════════════════════════════
 TOKEN       = os.environ.get("BOT_TOKEN")
-ADMIN_IDS   = [int(x) for x in os.environ.get("ADMIN_IDS", "8546436162").split(",")]
+ADMIN_IDS   = [int(x) for x in os.environ.get("ADMIN_IDS", "8589487706").split(",")]
 FILES_DIR   = "data_files"
 BACKUP_DIR  = "db_backups"
 REFERRAL_CREDITS       = 3
